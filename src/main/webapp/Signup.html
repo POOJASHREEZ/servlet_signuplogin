@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Signup</title>
+</head>
+<body>
+<h1>Enter Your DEtails</h1><br>
+<form action="signup" method="post">
+<table>
+<tr>
+<th>Name:</th>
+<td><input type="text" name="name" palceholder="Enter your name" requried="requried"></td>
+</tr>
+<tr>
+<th>Mobile:</th>
+<td><input type="tel" name="mob" pattern="[0-9]{10}"></td>
+</tr>
+<tr>
+<th>Email:</th>
+<td><input type="email" name="email"  requried="requried"></td>
+</tr>
+<tr>
+<th>Password:</th>
+<td><input type="password" name="pwd"></td>
+</tr>
+<tr>
+<th>Date of Birth:</th>
+<td><input type="date" name="dob"></td>
+</tr>
+<tr>
+<th>Gender:</th>
+ <td><input type="radio" name="gender" value="male">male<input type="radio" name="gender" value="female">female</td>
+</tr>
+<tr>
+<th>Address:</th>
+<td><textarea row="5"cols="30" name="address"></textarea></td>
+</tr>
+<tr>
+<th>Country:</th>
+<td>
+<select name="country">
+<option>select an  option</option>
+<option>India</option>
+<option>UAe</option>
+<option>Nepal</option>
+</select>
+</td>
+</tr>
+<tr>
+<th>Skills:</th>
+<td>
+<input type="checkbox" name="skills" value="Team Player">Team Player
+<input type="checkbox" name="skills" value="Quick Learner">Quick Learner
+<input type="checkbox" name="skills" value="Leadership">Leadership
+</td>
+</tr>
+<tr>
+<td><button type="reset">Cancel</button></td>
+<td><button>Signup</button>
+</tr>
+
+</table>
+</form>
+</body>
+</html>
